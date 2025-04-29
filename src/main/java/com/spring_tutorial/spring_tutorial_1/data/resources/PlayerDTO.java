@@ -1,9 +1,18 @@
 package com.spring_tutorial.spring_tutorial_1.data.resources;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+
 public class PlayerDTO {
 
+    @NotNull
     private String name;
+
+    @NotNull
     private String surname;
+
+    @NotNull
+    @Positive
     private Integer yearBirth;
 
     public PlayerDTO(String name, String surname, Integer yearBirth) {
