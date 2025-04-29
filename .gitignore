@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Environment files
+.env
+
+# Class files
+*.class
+
+# Temporary files
+*.tmp
+*.swp
